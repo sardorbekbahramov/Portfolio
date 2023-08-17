@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+    <html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- google font link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@200;400&display=swap" rel="stylesheet">
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="./style.css">
+        <!-- === Font Awesome=== -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio responsive complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Exclusive</a>
+                    <i class="fa-brands fa-twitter" style="color:#f8f8f8"></i>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <h1 class="home__title"><span class="span1">John</span><br><span class="span2">HENRE.</span></h1>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
+                    </div>
+
+                    <img src="./photos/perfil.png" alt="" class="home__img">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About Me</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <div class="about__img_1">
+                            <img class="about_img" src="./photos/perfil.png" alt="">
+                        </div>
+                        <div class="about__img_2">
+                            <img class="about_img" src="./photos/perfil.png" alt="">
+                        </div>
+                    </div>
+                    
+
+                    <div>
+                        <h2 class="about__subtitle">Following John Doe</h2>
+                        <h4><span class="about__profession">Full-Stack Developer</span></h4>
+                        <p class="about__text">
+                            - Developed REST APIs covered with unit tests in the microservice-based applications <br/>
+                            - Created responsive UI layouts using React, Typescript, MaterialUI<br/>
+                            - Increased test coverage of code base from 30% to 70% in Django project<br/>
+                            - Created background tasks to exchange data between services and to process big- sized files using Celery and Redis<br/>
+                            - Integrated third-party APIs like Google geolocation API, Coingecko, Stripe, Easyship in the projects
+                            
+
+                        <div class="about__social">
+                            <a href="#" class="about__social-icon icon_telegram"><i class="fa-brands fa-telegram"></i></a>
+                            <a href="#" class="about__social-icon icon_instagram"><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href="#" class="about__social-icon icon_github"><i class='bx bxl-github' ></i></a>
+                            <a href="#" class="about__social-icon icon_email"><i class="fa-solid fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__box">
+                        <div class="style__skill">
+                            <h3 class="skills__subtitle">Programming Language Skills</h3>
+                            <span class="skills__name">Html <i class="fa-brands fa-html5 html_style"></i></span>
+                            <span class="skills__name">Css <i class="fa-brands fa-css3"></i></span>
+                            <span class="skills__name">Bootstrap <i class="fa-brands fa-bootstrap"></i></span>
+                            <span class="skills__name">Scss <i class="fa-brands fa-sass"></i></span>
+                            <span class="skills__name">Javascript <i class="fa-brands fa-js"></i></span>
+                            <span class="skills__name">React <i class="fa-brands fa-react"></i></span>
+                            <span class="skills__name">Vue <i class="fa-brands fa-vuejs"></i></span>
+                            <span class="skills__name">Redux <i class="fa-brands fa-codepen"></i></span>
+                            <span class="skills__name">Next JS <i class="fa-brands fa-teamspeak"></i></span>                    
+                        </div>
+                        
+                       <div class="style__skill">
+                        <h3 class="skills__subtitle">Back-End Technologies</h3>
+                        <span class="skills__name">Node JS <i class="fa-brands fa-node"></i></span>
+                        <span class="skills__name">Mongo DB <i class="fa-brands fa-envira"></i></span>
+                        <span class="skills__name">Express JS <i class="fa-light fa-e"></i></span>
+
+                        <h3 class="skills__subtitle">Extra Tools for Internship</h3>
+                        <span class="skills__name">Git <i class="fa-brands fa-git-alt"></i></span>
+                        <span class="skills__name">GitHub <i class="fa-brands fa-github"></i></span>
+                       </div>                      
+                    </div>
+
+                    <div class="./photos/skill.jpg">
+                        <img src="./photos/skill.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== PORTFOLIO =====-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section-title">Portfolio</h2>
+
+                <div class="portfolio__container bd-grid">
+                    <div class="portfolio__img">
+                        <img src="./photos/pexels-lukas-574069.jpg" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="./photos/pexels-mikhail-nilov-7988218.jpg" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="./photos/pexels-jules-amé-4078342.jpg" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="./photos/pexels-tima-miroshnichenko-5380605.jpg" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="./photos/pexels-cang-hai-4425112.jpg" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="./photos/pexels-cottonbro-studio-6803532.jpg" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">EMAIL</h3>
+                        <span class="contact__text">sardorbekbahramov@gmail.com</span>
+
+                        <h3 class="contact__subtitle">PHONE</h3>
+                        <span class="contact__text"> +998-99-999-11-11</span>
+
+                        <h3 class="contact__subtitle">ADRESS</h3>
+                        <span class="contact__text">Samarkand City</span>
+                    </div>
+
+                    <form action="" class="contact__form" >
+                        <div class="contact__inputs">
+                            <input  type="text" placeholder="Name" class="contact__input text-style_input">
+                            <input type="mail" placeholder="Email" class="contact__input text-style_input">
+                        </div>
+
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input text-style_input"></textarea>
+
+                        <input type="submit" value="Enviar" class="contact__button text-style_input">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">JHON HENRE</h2>
+                    <p class="footer__text">I'm Jhon Henre and this is my personal website</p>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">EXPLORE</h2>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#about" class="footer__link">About</a></li>
+                        <li><a href="#skills" class="footer__link">Skills</a></li>
+                        <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                        <li><a href="#Contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">FOLLOW</h2>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter' ></i></a>
+                </div>
+
+
+            </div>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="./main.js"></script>
+    </body>
+</html>
