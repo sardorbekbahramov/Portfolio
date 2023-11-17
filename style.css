@@ -187,6 +187,7 @@ img{
     row-gap: 5rem;
 }
 .home__title{
+    letter-spacing: 7px;
     align-self: flex-end;
     font-size: var(--big-font-size);
     color: var(--white-color);
@@ -489,6 +490,7 @@ img{
         align-items: center;
         text-align: initial;
         padding: 4rem 0;
+        height: calc(var(--header-height) + rem);
     }
     .about__img {
         width: 490px;
@@ -559,10 +561,19 @@ img{
 /* For tall screens on mobiles y desktop*/
 @media screen and (min-height: 721px) {
     .home__container {
-        height: 640px;
+        height: 740px;
+    }
+    .home__img {
+        width: 400px;
+        right: 24%;
+    }
+}
+@media screen and (min-height: 920px) {
+    .home__container {
+        height: 940px;
     }
     .home__img {
         width: 500px;
-        right: 24%;
+        right: 20%;
     }
 }
